@@ -1,0 +1,129 @@
+.sidebar {
+    background-color: var(--clr-primary);
+    width: 260px;
+    padding: 36px 10px;
+    transition: var(--transition-default);
+    /* color: var(--clr-white); */
+}
+
+.infoImg {
+    width: 48px;
+    height: 48px;
+    overflow: hidden;
+    border-radius: 100%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.infoName {
+    font-size: 18px;
+    color: var(--clr-white);
+}
+
+.navigation {
+    margin-top: 28px;
+    height: 600px;
+    overflow-y: scroll;
+
+    &::-webkit-scrollbar {
+        width: 4px;
+    }
+
+    &::-webkit-scrollbar-thumb {
+        background-color: var(--clr-pumpkin);
+        border-radius: 18px;
+    }
+
+    &::-webkit-scrollbar-track {
+        box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+        border-radius: 18px;
+    }
+
+}
+
+.sidebarChange {
+    /* margin-left: -260px; */
+    /* margin-right: -260px; */
+}
+
+.navLink {
+    height: 44px;
+    border-radius: 8px;
+    padding: 6px 14px;
+    column-gap: 12px;
+    border: 1px solid transparent;
+    transition: var(--transition-default);
+}
+
+.navLink:hover {
+    border: 1px solid var(--clr-primar-light);
+}
+
+.navLink.active {
+    background-color: var(--clr-pumpkin);
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px rgba(0, 0, 0, 0.4) 0px 10px 10px -5px;
+}
+
+.navLinkIcon {
+    width: 22px;
+}
+
+@media screen and (max-width :1400px) {
+    .sidebar {
+        padding: 24px 8px;
+    }
+}
+
+@media screen and (max-width :1200px) {
+    .sidebar {
+        width: 72px;
+        padding-right: 12px;
+        padding-right: 12px;
+    }
+
+    .sidebarChange {
+        /* margin-left: -72px;  */
+        /* margin-right: -72px; */
+    }
+
+    .infoName {
+        display: none;
+    }
+
+    .navItem {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 18px;
+    }
+
+    .navLink {
+        padding: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 32px;
+        height: 32px;
+
+    }
+
+    .navLink.active {
+        border-radius: 100%;
+    }
+
+    .navLink:hover {
+        border-radius: 100%;
+    }
+
+    .navLinkText {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width:420px){
+    .sidebar{
+        margin-left: -72px;
+    }
+    .sidebarChange{
+        margin-left: 0;
+    }
+}

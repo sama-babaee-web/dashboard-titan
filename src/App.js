@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter } from 'react-router-dom';
-import Content from './components/Content/Content';
+import Content from './layouts/Content/Content';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.rtl.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';

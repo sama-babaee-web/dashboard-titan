@@ -1,6 +1,6 @@
 import React, { Routes, Route } from 'react-router-dom'
 import Home from '../../pages/Home/Home';
-import Layout from '../../layouts/Layout';
+import Layout from '../Layout';
 const myRoutes = [
     {
         path: '/', element: <Layout />, children: [
