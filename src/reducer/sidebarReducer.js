@@ -1,7 +1,7 @@
 const sidebarReducer = (state, action) => {
     if (action.type === "TOGGLE_SIDEBAR") {
         return {
-            ...state,
+            ... state,
             isSidebarOpen: !state.isSidebarOpen
         }
     }

@@ -1,0 +1,19 @@
+.sidebarToggler{
+    width: 20px;
+}
+
+.contentTopTitle{
+    color: var(--clr-white);
+    font-size: 20px;
+    font-weight: 600;
+}
+.contentTopBtn{
+    margin-right: 18px;
+}
+.contentTopBtn img {
+    width: 24px;
+}
+
+.contentTopBtn img:hover{
+    filter: brightness(0) invert(1);
+}

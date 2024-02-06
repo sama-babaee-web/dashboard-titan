@@ -31,3 +31,4 @@ export const personsImgs = {
     person_one, person_two, person_three, person_four
 };
 
+    

@@ -3,7 +3,6 @@
     width: 260px;
     padding: 36px 10px;
     transition: var(--transition-default);
-    /* color: var(--clr-white); */
 }
 
 .infoImg {
@@ -41,8 +40,7 @@
 }
 
 .sidebarChange {
-    /* margin-left: -260px; */
-    /* margin-right: -260px; */
+     margin-right: -260px; 
 }
 
 .navLink {
@@ -75,14 +73,13 @@
 
 @media screen and (max-width :1200px) {
     .sidebar {
-        width: 72px;
+        width: 72px !important;
         padding-right: 12px;
         padding-right: 12px;
     }
 
     .sidebarChange {
-        /* margin-left: -72px;  */
-        /* margin-right: -72px; */
+        margin-right: -72px;
     }
 
     .infoName {
@@ -119,11 +116,12 @@
 
 }
 
-@media screen and (max-width:420px){
-    .sidebar{
+@media screen and (max-width:420px) {
+    .sidebar {
         margin-left: -72px;
     }
-    .sidebarChange{
+
+    .sidebarChange {
         margin-left: 0;
     }
 }
