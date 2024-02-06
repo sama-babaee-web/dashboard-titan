@@ -57,7 +57,7 @@
 }
 
 .navLink.active {
-    background-color: var(--clr-pumpkin);
+    background-color: var(--clr-pumpkin) !important;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px rgba(0, 0, 0, 0.4) 0px 10px 10px -5px;
 }
 
@@ -118,10 +118,10 @@
 
 @media screen and (max-width:420px) {
     .sidebar {
-        margin-left: -72px;
+        margin-right: -72px;
     }
 
     .sidebarChange {
-        margin-left: 0;
+        margin-right: 0;
     }
 }
