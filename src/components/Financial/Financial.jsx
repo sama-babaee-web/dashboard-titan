@@ -5,7 +5,7 @@ function Financial() {
   return (
     <div className="subgrid-two-item grid-common grid-c8">
       <div className="grid-c-title">
-        <h3 className="grid-c-title-text">Financial Advice</h3>
+        <h3 className="grid-c-title-text">مشاوره مالی </h3>
         <button className="grid-c-title-icon">
           <img src={iconsImgs.plus} />
         </button>

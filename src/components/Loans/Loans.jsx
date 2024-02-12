@@ -8,7 +8,7 @@ function Loans() {
   return (
     <div className="subgrid-two-item grid-common grid-c7">
       <div className="grid-c-title">
-        <h3 className="grid-c-title-text">Loans</h3>
+        <h3 className="grid-c-title-text">وام</h3>
         <button className="grid-c-title-icon">
           <img src={iconsImgs.plus} />
         </button>
@@ -18,7 +18,6 @@ function Loans() {
           <div className="percent">
             <svg>
               <circle cx="105" cy="105" r="50"></circle>
-              {/* <circle cx="105" cy="105" r="50" style="--percent: 50"></circle> */}
             </svg>
             <div className="number">
               <h3>50<span>%</span></h3>
@@ -27,12 +26,12 @@ function Loans() {
         </div>
         <ul className="data-list">
           <li className="data-item text-silver-v1">
-            <span className="data-item-text">Savings Target</span>
-            <span className="data-item-value">$ 500,000</span>
+            <span className="data-item-text">هدف پس انداز</span>
+            <span className="data-item-value"> 500,000,000 ریال </span>
           </li>
           <li className="data-item text-silver-v1">
-            <span className="data-item-text">Target Reached</span>
-            <span className="data-item-value">$ 250,000</span>
+            <span className="data-item-text">تمام شده</span>
+            <span className="data-item-value"> 250,000,000 ریال</span>
           </li>
         </ul>
       </div>

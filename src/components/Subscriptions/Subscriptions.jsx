@@ -8,7 +8,7 @@ function Subscriptions() {
   return (
     <div className="subgrid-two-item grid-common grid-c5">
       <div className="grid-c-title">
-        <h3 className="grid-c-title-text">Subscriptions</h3>
+        <h3 className="grid-c-title-text">اشتراک ها</h3>
         <button className="grid-c-title-icon">
           <img src={iconsImgs.plus} />
         </button>
@@ -22,7 +22,7 @@ function Subscriptions() {
                   <div className="icon">
                     <img src={iconsImgs.alert} />
                   </div>
-                  <p className="text text-silver-v1">{subscription.title} <span>due {subscription.due_date}</span></p>
+                  <p className="text text-silver-v1 pt-3">{subscription.title} <span>due {subscription.due_date}</span></p>
                 </div>
                 <div className="grid-item-r">
                   <span className="text-silver-v1">$ {subscription.amount}</span>

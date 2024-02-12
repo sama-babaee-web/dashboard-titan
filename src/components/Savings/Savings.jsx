@@ -8,7 +8,7 @@ function Savings() {
   return (
     <div className="subgrid-two-item grid-common grid-c6">
       <div className="grid-c-title">
-        <h3 className="grid-c-title-text">Savings</h3>
+        <h3 className="grid-c-title-text">پس انداز</h3>
         <button className="grid-c-title-icon">
           <img src={iconsImgs.plus} />
         </button>
@@ -26,13 +26,13 @@ function Savings() {
                     <p className="text text-silver-v1">{saving.title}</p>
                   </div>
                   <div className="grid-item-top-r">
-                    <span className="text-silver-v1">$ {saving.saving_amount}</span>
+                    <span className="text-silver-v1"> {saving.saving_amount} ریال</span>
                   </div>
                 </div>
                 <div className="grid-item-bottom">
                   <div className="grid-item-badges">
-                    <span className="grid-item-badge">Date taken {saving.date_taken}</span>
-                    <span className="grid-item-badge">Amount left $ {saving.amount_left}</span>
+                    <span className="grid-item-badge">تاریخ گرفته شده {saving.date_taken}</span>
+                    <span className="grid-item-badge">مقدار باقی مانده است  {saving.amount_left} ریال</span>
                   </div>
                   <div className="grid-item-progress">
                     <div className="grid-item-fill"></div>

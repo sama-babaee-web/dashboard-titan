@@ -27,12 +27,13 @@
   }
   .grid-c2 .grid-item-l .text {
     font-weight: 600;
+    font-size: 12px;
   }
   .grid-c2 .grid-item-l span {
     display: block;
     font-weight: 400;
     margin-top: 4px;
-    font-size: 15px;
+    font-size: 11px;
     color: #8a8587;
   }
   .grid-c2 .grid-item-r span {

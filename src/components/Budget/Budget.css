@@ -9,7 +9,8 @@
     border-radius: 16px;
   }
   .grid-c4 .grid-c4-content {
-    padding: 12px;
+    padding: 12px ;
+    padding-top: 20px;
   }
   .grid-c4 .grid-item {
     display: flex;
@@ -35,7 +36,7 @@
   }
   .grid-c4 .grid-item-l .text span {
     font-weight: 300;
-    font-size: 15px;
+    font-size: 10px;
     display: block;
     margin-top: 5px;
     opacity: 0.9;

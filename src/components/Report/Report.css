@@ -35,6 +35,7 @@
   }
   .grid-chart-bar .grid-hortz-value {
     margin-top: 12px;
+    font-size: 9px;
   }
   .grid-chart-bar .bar-item1 {
     position: absolute;

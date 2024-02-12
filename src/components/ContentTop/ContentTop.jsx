@@ -11,7 +11,7 @@ function ContentTop() {
                 <button type='button' className={`${styles.sidebarToggler} d-flex align-items-center me-3`} onClick={() => toggleSidebar()}>
                     <img src={iconsImgs.menu} alt="" />
                 </button>
-                <h3 className={styles.contentTopTitle}> Home </h3>
+                <h3 className={styles.contentTopTitle}> داشبورد </h3>
             </div>
 
             <div className={styles.contentTopBtns}>

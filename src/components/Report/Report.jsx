@@ -8,7 +8,7 @@ export default function Report() {
   return (
     <div className="grid-one-item grid-common grid-c3">
     <div className="grid-c-title">
-        <h3 className="grid-c-title-text">Report</h3>
+        <h3 className="grid-c-title-text">گزارش</h3>
         <button className="grid-c-title-icon">
             <img src={ iconsImgs.plus } />
         </button>
@@ -29,7 +29,7 @@ export default function Report() {
                             <div className="bar-item1" style={{ height: `${report.value1 !== null ? "40%" : ""}` }}></div>
                             <div className="bar-item2" style={{ height: `${report.value2 !== null ? "60%" : ""}` }}></div>
                         </div>
-                        <span className="grid-hortz-value">Jan</span>
+                        <span className="grid-hortz-value">{report.month}</span>
                     </div>
                 ))
             }

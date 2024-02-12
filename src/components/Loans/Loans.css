@@ -52,10 +52,11 @@
     justify-content: flex-start;
   }
   .grid-c7-content .progress-bar {
-    margin-left: -46px;
+    margin-right: -50px;
   }
   .grid-c7-content .data-list {
-    margin-left: -20px;
+    margin-right: -42px;
+    padding-top: 30px;
   }
   .grid-c7-content .data-item {
     margin-bottom: 20px;

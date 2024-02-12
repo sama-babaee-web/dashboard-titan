@@ -2,38 +2,38 @@ import { iconsImgs } from "../utils/images";
 import { personsImgs } from "../utils/images";
 
 export const navigationLinks = [
-    { id: 1, title: 'Home', image: iconsImgs.home },
-    { id: 2, title: 'Budget', image: iconsImgs.budget },
-    { id: 3, title: 'Transactions', image: iconsImgs.plane },
-    { id: 4, title: 'Subscriptions', image: iconsImgs.wallet },
-    { id: 5, title: 'Loans', image: iconsImgs.bills },
-    { id: 6, title: 'Reports', image: iconsImgs.report },
-    { id: 7, title: 'Savings', image: iconsImgs.wallet },
-    { id: 8, title: 'Financial Advice', image: iconsImgs.wealth },
-    { id: 9, title: 'Account', image: iconsImgs.user },
-    { id: 10, title: 'Settings', image: iconsImgs.gears }
+    { id: 1, title: ' داشبورد ', image: iconsImgs.home },
+    // { id: 2, title: 'Budget', image: iconsImgs.budget },
+    { id: 3, title: 'معاملات', image: iconsImgs.plane },
+    { id: 4, title: 'اشتراک ها', image: iconsImgs.wallet },
+    { id: 5, title: 'وام', image: iconsImgs.bills },
+    { id: 6, title: 'گزارش ها', image: iconsImgs.report },
+    { id: 7, title: 'پس انداز', image: iconsImgs.wallet },
+    { id: 8, title: 'مشاوره مالی', image: iconsImgs.wealth },
+    { id: 9, title: 'حسابداری', image: iconsImgs.user },
+    { id: 10, title: 'تنظیمات', image: iconsImgs.gears }
 ];
 
 export const transactions = [
     {
         id: 11, 
-        name: "Sarah Parker",
+        name: " ابراهیم براتی ",
         image: personsImgs.person_four,
-        date: "23/12/04",
+        date: "1402/08/20",
         amount: 22000
     },
     {
         id: 12, 
-        name: "Krisitine Carter",
+        name: "رضا میردار",
         image: personsImgs.person_three,
-        date: "23/07/21",
+        date: "1402/08/20",
         amount: 20000
     },
     {
         id: 13, 
-        name: "Irene Doe",
+        name: " سما بابایی ",
         image: personsImgs.person_two,
-        date: "23/08/25",
+        date: "1402/08/20",
         amount: 30000
     }
 ];
@@ -41,31 +41,31 @@ export const transactions = [
 export const reportData = [
     {
         id: 14,
-        month: "Jan",
+        month: "فروردین",
         value1: 45,
         value2: null
     },
     {
         id: 15,
-        month: "Feb",
+        month: "اردیبهشت",
         value1: 45,
         value2: 60
     },
     {
         id: 16,
-        month: "Mar",
+        month: "خرداد",
         value1: 45,
         value2: null
     },
     {
         id: 17,
-        month: "Apr",
+        month: "تیر",
         value1: 45,
         value2: null
     },
     {
         id: 18,
-        month: "May",
+        month: "مرداد",
         value1: 45,
         value2: null
     }
@@ -74,31 +74,31 @@ export const reportData = [
 export const budget = [
     {
         id: 19, 
-        title: "Subscriptions",
-        type: "Automated",
+        title: "اشتراک ها",
+        type: "خودکار",
         amount: 22000
     },
     {
         id: 20, 
-        title: "Loan Payment",
-        type: "Automated",
+        title: "پرداخت وام",
+        type: "خودکار",
         amount: 16000
     },
     {
         id: 21, 
-        title: "Foodstuff",
-        type: "Automated",
+        title: "مواد غذایی",
+        type: "خودکار",
         amount: 20000
     },
     {
         id: 22, 
-        title: "Subscriptions",
+        title: "اشتراک ها",
         type: null,
         amount: 10000
     },
     {
         id: 23, 
-        title: "Subscriptions",
+        title: "اشتراک ها",
         type: null,
         amount: 40000
     }
@@ -130,8 +130,8 @@ export const savings = [
         id: 27,
         image: personsImgs.person_one,
         saving_amount: 250000,
-        title: "Pay kid bro’s fees",
-        date_taken: "23/12/22",
-        amount_left: 40000
+        title: "هزینه ها را پرداخت کنید",
+        date_taken: "1402/04/06",
+        amount_left: 400000
     }
 ]

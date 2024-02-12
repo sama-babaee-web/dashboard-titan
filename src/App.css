@@ -15,7 +15,7 @@
 body {
   font-family: FontVazir !important;
   direction: rtl !important;
-  font-size: 13px !important;
+  font-size: 12px !important;
 }
 
 :root {
@@ -97,7 +97,7 @@ button {
 
 /* commons */
 .lg-value {
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 600;
 }
 
@@ -119,6 +119,7 @@ button {
 .grid-c-title-text {
   font-weight: 400;
   color: var(--clr-silver);
+  font-size:18px;
 }
 
 .grid-c-title-icon img {
