@@ -12,12 +12,12 @@ function Sidebar() {
     const [sidebarClass, setSidebarClass] = useState("");
     const { isSidebarOpen } = useContext(SidebarContext);
     useEffect(() => {
-        if(isSidebarOpen){
+        if (isSidebarOpen) {
             setSidebarClass(`${styles.sidebarChange}`)
-        }else{
-            setSidebarClass ('');
+        } else {
+            setSidebarClass('');
         }
-    },[isSidebarOpen])
+    }, [isSidebarOpen])
 
     return (
         <div className={` ${styles.sidebar} ${sidebarClass} `}>
@@ -34,7 +34,8 @@ function Sidebar() {
                     {
                         navigationLinks.map((navigationLink) => (
                             <li className={`${styles.navItem} mb-3`} key={navigationLink.id}>
-                                <a href="#" className={`${styles.navLink} d-flex align-items-center justify-content-start`}>
+                                <a href="#" className={`${styles.navLink} ${navigationLink.id === activeLinkIdx ? 'active' : null}
+                                 d-flex align-items-center justify-content-start`}>
                                     <img src={navigationLink.image} className={styles.navLinkIcon} alt={navigationLink.title} />
                                     <span className={styles.navLinkText}>
                                         {
