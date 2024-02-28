@@ -1,6 +1,5 @@
 import React, { useContext, useEffect, useState } from 'react'
 import styles from './Sidebar.module.css'
-import logo from '../../assets/images/logo/titan-logo.png'
 import { personsImgs } from '../../utils/images'
 import { navigationLinks } from '../../data/data'
 import { SidebarContext } from '../../context/sidebarContext'
